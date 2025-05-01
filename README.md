@@ -14,7 +14,6 @@ II. Mapping of Methodology
 B Thought Process
 
 	1.  Each metric will have a folder to serve as a repository to hold exported reports from HMIS.
- 
 		a. ClientsInPrograms Data Pull will feed the following reports:
 			*Demographics
 			*Positive Exits for Housing/Outreach Programs
@@ -25,7 +24,7 @@ B Thought Process
 			*Increase in Non-Cash
    
 3. Workflow process .
-4. 
+
 	a. For each folder-->
 		- We need to take each file in the folder-->
 			-clean the data as needed-->
