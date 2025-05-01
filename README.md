@@ -22,25 +22,23 @@ B Thought Process
 		b. CoC Caper Report Data Pull will feed the following reports:
 			*Increased in Earned Cash
 			*Increase in Non-Cash
+	2. Workflow process .
+		a. For each folder-->
+			- We need to take each file in the folder-->
+				-clean the data as needed-->
+					-then add the necessary columns for computing / data tracking
+					*column for the source of the data- to ensure we know the file location of the datapoint
+					*column for with the date the file was processed (To identify the time frame the data belongs too/ and also identify the date the error was processed)
    
-3. Workflow process .
-
-	a. For each folder-->
-		- We need to take each file in the folder-->
-			-clean the data as needed-->
-				-then add the necessary columns for computing / data tracking
-				*column for the source of the data- to ensure we know the file location of the datapoint
-				*column for with the date the file was processed (To identify the time frame the data belongs too/ and also identify the date the error was processed)
-   
-	b. Next we need to then load the data into a parquet file for aggregation
-	purposes.
-		- The parquet file is used to maintain the integrity of the data types for
-		further analysis, and to be
-  		- Will also be used for the PowerBI dashboard/ Tableau
-   
-	c. Next we need to archive the processed parquet file data to a .csv file so the data can be readable after processed by those who need to review the data.
-		- Parquet files are binary files are serialized and are not human readable.
-		-having a .csv file will allow others to read the data should they need too.
+		b. Next we need to then load the data into a parquet file for aggregation
+		purposes.
+			- The parquet file is used to maintain the integrity of the data types for
+			further analysis, and to be
+	  		- Will also be used for the PowerBI dashboard/ Tableau
+	   
+		c. Next we need to archive the processed parquet file data to a .csv file so the data can be readable after processed by those who need to review the data.
+			- Parquet files are binary files are serialized and are not human readable.
+			-having a .csv file will allow others to read the data should they need too.
 
 
 
